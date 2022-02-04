@@ -1,0 +1,82 @@
+<div id = 'title'>
+	<h1>{{title}}</h1><hr>
+	<h2>{{subtitle}}</h2>
+	<!--<p>{{email}}</p>-->
+</div>
+
+<article class = "about">
+	<h2>ABOUT ME</h2>
+	<p>
+		Mechanical engineer and web developer. Formed betwen Spain and Italy, 
+		at the University of Castilla-La Mancha and the Università degli studi
+		di Perugia.
+	</p>
+	<div id = "about-left">
+		<h3>PERSONAL PROFILE</h3>
+		<p>
+			I have programming knowledge, learned in the degree, self learning and with online courses. I am very interested on web and app developement. <br><br>My main skills are based on JavaScript,  Angular, C# and also no relational data bases, using systems like MongoDB, with NodeJS. <br><br>Also I have used libraries like JQuery, JQuery UI and PrimeNG.<br><br>
+
+			I have spent a year in other country, which have gave to me the opportunity of staying in contact with many kind of people, so the movility insid and outside the country won't be a problem.
+		</p>
+
+		<h3>SKILLS</h3><br>
+
+		<br>		
+		<a><img class = "logo-about angular" src = "../../assets/img/AngularLogo.png"/>&nbsp;
+			{{angular_value +"%"}}</a>
+		<p-slider [(ngModel)]="angular_value"></p-slider>
+
+		<br><br>
+		<a><img class = "logo-about js" src = "../../assets/img/JSLogo.png"/>&nbsp;
+			{{js_value +"%"}}</a>
+		<p-slider [(ngModel)]="js_value"></p-slider>
+
+		<br><br>
+		<a><img class = "logo-about js" src = "../../assets/img/CSharpLogo.png"/>&nbsp;
+			{{csharp_value +"%"}}</a>
+		<p-slider [(ngModel)]="csharp_value"></p-slider>
+		<br><br><br>
+
+		<h3>LANGUAGES</h3>
+
+		<br><br>
+		<a>English</a>
+		<a style = "font-size: 14px; float: right">Intermediate</a>
+		<p-slider [(ngModel)]="english_level"></p-slider>
+
+		<br><br>
+		<a>Italian</a>
+		<a style = "font-size: 14px; float: right">Intermediate</a>
+		<p-slider [(ngModel)]="italian_level"></p-slider>
+		
+
+		
+
+
+	</div>
+	<div id = "about-right">
+		<h3>ACADEMIC PROFILE</h3><br>
+
+		<h4>Universidad de Castilla-La Mancha</h4>
+		<p>Degree in Mechanical Engineering 2016-2021</p>
+
+		<h4>Università degli studi di Perugia (Movility program)</h4>
+		<p>Degree in Mechanical Engineering, course 2019/2020</p>
+
+		<h4>I.E.S Aldonza Lorenzo</h4>
+		<p>Technological pre-bachelor education 2014-2016</p><br>
+
+		<h3>FURTHER EDUCATION</h3>
+
+		<p>Mastery JS: Learn JS, JQuery, Angular, NodeJS</p>
+		<span>English language inmersion course (UIMP)</span>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;40 hours</p>
+		<span>Erasmus+</span>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;9 months</p>
+
+		<h3></h3><br>
+		<a href = "https://github.com/PedroMartinezGC" target = "blank" title = "Go to GitHub"><img class = "logo-about angular" src = "../../assets/img/GitHubLogo.png"/></a>
+		<a style = "margin-left: 15px;">&nbsp;Visit me on gitHub</a>
+
+	</div>
+</article>
