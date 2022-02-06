@@ -16,7 +16,7 @@ export class ContactComponent implements OnInit {
   	this.title = "Contact";
   	this.phone = "+34 658 05 97 50";
   	this.github = "PedroMartinezGC";
-  	this.web = "www.fordeterminate.com";
+  	this.web = "pedromartinezgc.github.io";
   	this.email = "pedromartinezgcicuendez@gmail.com";
   }
 
